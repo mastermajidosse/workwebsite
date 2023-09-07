@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #e0c279;
   transition: 0.5s;
 }
 
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #e0c279;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -88,7 +88,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #1bb1dc;
+  border-top: 6px solid #e0c279;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -142,7 +142,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #topbar .social-links a:first-child {
@@ -192,8 +192,9 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #413e66;
-  text-decoration: none;
+  color: #e0c279;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 #header .logo img {
@@ -214,19 +215,19 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #e9ecf4 url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #102c77;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #intro .intro-info .btn-get-started,
@@ -241,7 +242,7 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #e0c279;
   color: #fff;
 }
 
@@ -277,7 +278,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #102c77;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -289,7 +290,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #e0c279;
   text-decoration: none;
 }
 
@@ -329,7 +330,7 @@ h6 {
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 .main-nav .drop-down > a:after {
@@ -473,7 +474,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #413e66;
+  color: #102c77;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -493,7 +494,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background: #e9ecf4;
 }
 
 /* About Us Section
@@ -508,7 +509,7 @@ h6 {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: #102c77;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -532,7 +533,7 @@ h6 {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #about .about-img {
@@ -626,7 +627,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #services .description {
@@ -658,7 +659,7 @@ h6 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
-  color: #413e66;
+  color: #102c77;
   margin-bottom: 5px;
 }
 
@@ -692,7 +693,7 @@ h6 {
 --------------------------------*/
 
 #call-to-action {
-  background: #2d2b46;
+  background: #102c77;
   background-size: cover;
   padding: 40px 0;
 }
@@ -722,8 +723,8 @@ h6 {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #e0c279;
+  border: 3px solid #e0c279;
 }
 
 /* Features Section
@@ -759,14 +760,14 @@ h6 {
   padding: 6px 10px;
   font-size: 16px;
   line-height: 20px;
-  color: #413e66;
+  color: #102c77;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -831,7 +832,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -850,7 +851,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #1bb1dc;
+  background: #e0c279;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -934,7 +935,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #e0c279;
 }
 
 /* Team Section
@@ -1011,7 +1012,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #team .member .social i {
@@ -1053,7 +1054,7 @@ h6 {
 }
 
 #clients .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #e0c279;
 }
 
 /* Pricing Section
@@ -1079,7 +1080,7 @@ h6 {
   left: 0;
   width: 0%;
   height: 5px;
-  background-color: #1bb1dc;
+  background-color: #e0c279;
   transition: 0.5s;
 }
 
@@ -1113,7 +1114,7 @@ h6 {
 #pricing .card .list-group-item {
   border: 0px;
   padding: 6px;
-  color: #413e66;
+  color: #102c77;
   font-weight: 300;
 }
 
@@ -1151,7 +1152,7 @@ h6 {
   letter-spacing: 1px;
   border-radius: 3px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #e0c279;
   color: #fff;
 }
 
@@ -1199,7 +1200,7 @@ h6 {
 }
 
 #faq #faq-list a.collapse {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #faq #faq-list a.collapsed {
@@ -1222,7 +1223,7 @@ h6 {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  background: #e9ecf4;
 }
 
 #footer .footer-top .footer-info {
@@ -1235,7 +1236,7 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  color: #102c77;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1252,7 +1253,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #e0c279;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1272,7 +1273,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  color: #102c77;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1301,7 +1302,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #footer .footer-top .footer-contact {
@@ -1324,8 +1325,8 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #1bb1dc;
-  border: 1px solid #1bb1dc;
+  background: #e0c279;
+  border: 1px solid #e0c279;
   width: 35%;
   padding: 6px 0;
   text-align: center;
@@ -1344,7 +1345,7 @@ h6 {
 
 #footer .footer-top .form #sendmessage {
   color: #fff;
-  background: #1bb1dc;
+  background: #e0c279;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1377,7 +1378,7 @@ h6 {
 }
 
 #footer .footer-top .form label {
-  color: #413e66;
+  color: #102c77;
   font-weight: 500;
 }
 
@@ -1410,7 +1411,7 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-  background: #1bb1dc;
+  background: #e0c279;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
@@ -1438,7 +1439,7 @@ h6 {
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #e0c279;
 }
 
 #footer .credits a:hover {
