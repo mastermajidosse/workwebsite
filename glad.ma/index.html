@@ -1,512 +1,646 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Glad.ma</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta
-    content="Glad, Web, App, Maroc,web rabat , web casa, web temara,maroc, flutter, Mobile, sites web, application, développement web, développement mobile, développement jeux"
-    name="keywords">
-  <meta
-    content="Glad spécialisée dans la conception et le développement mobile avec flutter react native sur Android et IOS en plus des plateformes Web"
-    name="description">
+  <title>GLAD</title>
+
+
+
 
   <!-- Favicons -->
 
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="manifest" href="img/site.webmanifest">
-  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
 
-  <!-- Google Fonts -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
+<body class="index-page">
 
-    <!-- <div id="topbar">
-      <div class="container">
-        <div class="social-links">
-          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        </div>
-      </div>
-    </div> -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-    <div class="container">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">GLAD</h1>
+      </a>
 
-      <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Glad</span></a></h1>
-        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
-      </div>
-
-      <nav class="main-nav float-right d-none d-lg-block">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li class="active"><a href="#intro">Accueil</a></li>
-          <li><a href="#about">A propos</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Réalisations</a></li>
-          <li><a href="#footer">Contact Us</a></li>
+          <li><a href="#hero" class="active">ACCUEIL<br></a></li>
+          <li><a href="#about">A PROPOS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">REALISATION</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
         </ul>
-      </nav><!-- .main-nav -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
-  </header><!-- #header -->
+  </header>
 
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro" class="clearfix">
-    <div class="container d-flex h-100">
-      <div class="row justify-content-center align-self-center">
-        <div class="col-md-6 intro-info order-md-first order-last">
-          <h2>Une Expertise<br>Développement <span>Web & Mobile</span></h2>
-          <div>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          </div>
-        </div>
-        <div class="col-md-6 intro-img order-md-last order-first">
-        </div>
-      </div>
+  <main class="main">
 
-    </div>
-
-  </section><!-- #intro -->
-
-  <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-5 col-md-6">
-            <div class="about-img">
-              <img src="img/about-img.png" alt="">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Une Expertise
+              Développement <br> Web & Mobile</h1> <br>
+            <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
+              <a href="#about" class="btn-get-started">Get Started <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-7 col-md-6">
-            <div class="about-content">
-              <h2>A propos de nous</h2>
-              <h3>Glad est une agence de création de sites web et d'applications mobiles au Maroc,</h3>
-              <p>spécialisée dans la conception et le développement mobile sur Android et IOS en plus des plateformes
-                Web.
-                Grâce à notre expertise, nous créons des solutions efficaces et sur-mesure qui répondent efficacement
-                à vos besoins et attentes pour vous aider à développer votre stratégie digitale, renforcer votre
-                compétitivité,
-                et améliorer votre visibilité.</p>
-              <p>En plus du développement web et d’applications mobiles, notre agence offre une gamme de services
-                professionnels complémentaires :</p>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Jeux Mobile.</li>
-                <li><i class="ion-android-checkmark-circle"></i> Mobile apps.</li>
-                <li><i class="ion-android-checkmark-circle"></i> Social Media Marketing.</li>
-              </ul>
-              Que vous soyez une grande entreprise ou une startup innovante qui cherche à mettre en ligne une plateforme
-              web ou une application mobile, contactez- nous ! Nous serons très heureux de vous accompagner.
-            </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
 
-    </section><!-- #about -->
+    </section><!-- /Hero Section -->
 
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-    <!--==========================
-      Services Section
-    ============================-->
-    <section id="services" class="section-bg">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
 
-        <header class="section-header">
-          <h3>Services</h3>
-        </header>
-        <br>
-        <br>
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #fceef3;"><i class="ion-android-laptop" style="color: #ff689b;"></i>
-              </div>
-              <h4 class="title"><a href="">Développement Web</a></h4>
-              <p class="description">Nous créons des sites Web et des applications utilisant les dernières technologies
-                qui travaillent dur, obtiennent des résultats et génèrent un retour sur investissement.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #fff0da;"><i class="ion-android-apps" style="color: #e98e06;"></i>
-              </div>
-              <h4 class="title"><a href="">Application Mobile</a></h4>
-              <p class="description">Numérisez vos processus et soyez à portée de clic avec nos solutions d'applications
-                avancées, nos applications mobiles IOS ou Android ; Natif, embarqué ou hybride.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #e6fdfc;"><i class="ion-arrow-graph-up-right"
-                  style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Social Media marketing</a></h4>
-              <p class="description">Le marketing des réseaux sociaux vous donne la possibilité de diffuser votre
-                message, d'accroître la notoriété de votre marque, de partager votre contenu, de créer une suite et de
-                nourrir vos prospects.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #eafde7;"><i class="ion-ios-game-controller-b"
-                  style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Jeux Mobile</a></h4>
-              <p class="description"> Création sur-mesure de votre jeu mobile, projet de
-                qualité, optimisé et surtout, Nous prenons en charge votre jeu, de la conception graphique aux
-                animations en passant par l’ajout de fonctionnalités
-                personnalisées. Nous nous adaptons, selon vos besoins !</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #e1eeff;"><i class="ion-social-bitcoin-outline"
-                  style="color: #2282ff;"></i></div>
-              <h4 class="title"><a href="">Blockchain</a></h4>
-              <p class="description">Notre agence propose une approche intégrée pour aider les projets dans le domaine
-                de la crypto-monnaie. Notre expertise en cryptomonnaies nous permet de comprendre
-                les besoins spécifiques des projets blockchain et nous sommes prêts à vous accompagner dans la réussite
-                de votre projet.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #ecebff;"><i class="ion-ios-toggle" style="color: #8660fe;"></i>
-              </div>
-              <h4 class="title"><a href="">Motion Design</a></h4>
-              <p class="description">Découvrez le service motion design pour tous vos besoins en communication,
-                marketing, digital learning ou événementiel.Notre équipe donne vie à tout type de graphisme pour vous
-                façonner des vidéos dynamiques et originales. Du simple pictogramme au graphisme le plus détaillé.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #services -->
-
-    <!--==========================
-      Why Us Section
-    ============================-->
-    <section id="why-us" class="wow fadeIn">
-      <div class="container-fluid">
-
-        <header class="section-header">
-          <h3>Pourquoi Nous Choisir?</h3>
-          <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> -->
-        </header>
-        <br>
-        <br>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="why-us-img">
-              <img src="img/why-us.png" alt="choose" class="img-fluid">
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="why-us-content">
-              <p>Glad s'engage envers ses clients et offre d'excellents services dans les domaines de la conception, du
-                développement, de la programmation et du marketing.
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>A propos de nous</h3>
+              <h2>Glad est une agence de création de sites web et d'applications mobiles au Maroc,
+              </h2>
+              <p>
+                spécialisée dans la conception et le développement mobile sur Android et IOS en plus des plateformes
+                Web. Grâce à notre expertise, nous créons des solutions efficaces et sur-mesure qui répondent
+                efficacement à vos besoins et attentes pour vous aider à développer votre stratégie digitale, renforcer
+                votre compétitivité, et améliorer votre visibilité.
               </p>
               <p>
-                Nous mettons beaucoup d'efforts dans la réalisation
-                des projets. Peu importe que nous travaillions pour une petite organisation ou une organisation bien
-                établie, nous nous assurons toujours de servir nos clients avec la meilleure solution possible à un coût
-                raisonnable.
+                En plus du développement web et d’applications mobiles, notre agence offre une gamme de services
+                professionnels complémentaires : <br><br>
+                <i class="bi bi-check"></i>
+                Jeux Mobile. <br>
+                <i class="bi bi-check"></i>
+                Mobile apps. <br>
+                <i class="bi bi-check"></i>
+                Social Media Marketing. <br><br>
+                Que vous soyez une grande entreprise ou une startup innovante qui cherche à mettre en ligne une
+                plateforme web ou une application mobile, contactez- nous ! Nous serons très heureux de vous
+                accompagner.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Check Our Services<br></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <i class="bi bi-laptop icon"></i>
+              <h3>
+                Développement Web</h3>
+              <p>Nous créons des sites Web et des applications utilisant les dernières technologies qui travaillent dur,
+                obtiennent des résultats et génèrent un retour sur investissement.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <i class="bi bi-app icon"></i>
+              <h3>Application Mobile</h3>
+              <p>Numérisez vos processus et soyez à portée de clic avec nos solutions d'applications avancées, nos
+                applications mobiles IOS ou Android ; Natif, embarqué ou hybride.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <i class="bi bi-graph-up-arrow icon"></i>
+              <h3>Social Media marketing</h3>
+              <p>Le marketing des réseaux sociaux vous donne la possibilité de diffuser votre message, d'accroître la
+                notoriété de votre marque, de partager votre contenu, de créer une suite et de nourrir vos prospects.
               </p>
 
-              <div class="features wow bounceInUp clearfix">
-                <i class="fa fa-microphone" style="color: #f058dc;"></i>
-                <h4>À L‘ÉCOUTE</h4>
-                <p>Nous sommes à l‘écoute de nos clients avec une capacité d‘adaptation rapide. Notre méthodologie de
-                  travail et nos outils de dernières générations nous permettent de traiter les demandes les plus
-                  complexes.
-                </p>
-              </div>
+            </div>
+          </div><!-- End Service Item -->
 
-              <div class="features wow bounceInUp clearfix">
-                <i class="fa fa-object-group" style="color: #ffb774;"></i>
-                <h4>EXPERTISE</h4>
-                <p>Une maîtrise des technologies avec un goût prononcé pour les challenges. Le travail en équipe et la
-                  mutualisation des connaissances sont notre force, nous allons tous dans la même direction :
-                  l‘excellence.</p>
-              </div>
-
-              <div class="features wow bounceInUp clearfix">
-                <i class="fa fa-linode" style="color: #589af1;"></i>
-                <h4>INNOVATION</h4>
-                <p>Nous sommes constamment à la recherche de nouveautés tant au niveau technologique que créatif. Nos
-                  solutions sont performantes avec des résultats mesurables en temps réel.</p>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <i class="bi bi-controller icon"></i>
+              <h3>Jeux Mobile</h3>
+              <p>Création sur-mesure de votre jeu mobile, projet de qualité, optimisé et surtout, Nous prenons en charge
+                votre jeu, de la conception graphique aux animations en passant par l’ajout de fonctionnalités
+                personnalisées. Nous nous adaptons, selon vos besoins !</p>
 
             </div>
+          </div><!-- End Service Item -->
 
-          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <i class="bi bi-currency-bitcoin icon"></i>
+              <h3>Blockchain</h3>
+              <p>Notre agence propose une approche intégrée pour aider les projets dans le domaine de la crypto-monnaie.
+                Notre expertise en cryptomonnaies nous permet de comprendre les besoins spécifiques des projets
+                blockchain et nous sommes prêts à vous accompagner dans la réussite de votre projet.</p>
+
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <i class="bi bi-toggles icon"></i>
+              <h3>Motion Design</h3>
+              <p>Découvrez le service motion design pour tous vos besoins en communication, marketing, digital learning
+                ou événementiel.Notre équipe donne vie à tout type de graphisme pour vous façonner des vidéos dynamiques
+                et originales. Du simple pictogramme au graphisme le plus détaillé.</p>
+
+            </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
+
+    </section><!-- /Services Section -->
+
+    <section id="values" class="values section">
+
+      <!---Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Values</h2>
+        <p>Pourquoi Nous Choisir?<br></p>
+      </div><!-- End Section Title -->
 
       <div class="container">
-        <div class="row counters">
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">33</span>
-            <p>Clients</p>
-          </div>
+        <div class="row gy-4">
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">62</span>
-            <p>Projects</p>
-          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <h3>À L‘ÉCOUTE</h3>
+              <p>Nous sommes à l‘écoute de nos clients avec une capacité d‘adaptation rapide. Notre méthodologie de
+                travail et nos outils de dernières générations nous permettent de traiter les demandes les plus
+                complexes.</p>
+            </div>
+          </div><!-- End Card Item -->
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">364</span>
-            <p>Hours Of Support</p>
-          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <h3>INNOVATION</h3>
+              <p>Nous sommes constamment à la recherche de nouveautés tant au niveau technologique que créatif. Nos
+                solutions sont performantes avec des résultats mesurables en temps réel.</p>
+            </div>
+          </div><!-- End Card Item -->
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">5</span>
-            <p>Hard Workers</p>
-          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <h3>EXPERTISE</h3>
+              <p>Une maîtrise des technologies avec un goût prononcé pour les challenges. Le travail en équipe et la
+                mutualisation des connaissances sont notre force, nous allons tous dans la même direction :
+                l‘excellence.</p>
+            </div>
+          </div><!-- End Card Item -->
 
         </div>
 
       </div>
+
     </section>
 
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeInUp">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Demandez votre devis</h3>
-            <p class="cta-text"> Prêt à démarrer avec les services de développement de sites Web personnalisés.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Contactez- nous! </a>
-          </div>
-        </div>
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
 
-      </div>
-    </section><!-- #call-to-action -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    <!--==========================
-      Portfolio Section
-    ============================-->
-    <section id="portfolio" class="section-bg">
-      <div class="container">
+        <div class="row gy-4">
 
-        <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
-        </header>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-game">Games</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img height="200" src="img/portfolio/app1.png" class="img-fluid" alt="smile app">
-              <div class="portfolio-info">
-                <h4><a href="#">gladly</a></h4>
-                <p>smile sharing app</p>
-                <div>
-                  <a href="img/portfolio/app1.png" data-lightbox="portfolio" data-title="App 1" class="link-preview"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="https://www.getgladly.app" target="_blank" class="link-details" title="More Details"><i
-                      class="ion ion-android-open"></i></a>
-                </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="33" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Happy Clients</p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/web1.png" class="img-fluid" alt="Moharik">
-              <div class="portfolio-info">
-                <h4><a href="#">Moharik</a></h4>
-                <p>Moharik website</p>
-                <div>
-                  <a href="img/portfolio/web1.png" class="link-preview" data-lightbox="portfolio" data-title="Web 3"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="https://www.moharik.ma/" target="_blank" class="link-details" title="More Details"><i
-                      class="ion ion-android-open"></i></a>
-                </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-journal-richtext color-orange flex-shrink-0" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="62" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Projects</p>
               </div>
             </div>
-          </div>
+          </div><!-- End Stats Item -->
 
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/game1.png" class="img-fluid" alt="blue ball">
-              <div class="portfolio-info">
-                <h4><a href="#">blue ball</a></h4>
-                <p>puzzle plateforme game</p>
-                <div>
-                  <a href="img/portfolio/game1.png" class="link-preview" data-lightbox="portfolio" data-title="Card 2"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.otot.blueball" target="_blank"
-                    class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-headset color-green flex-shrink-0" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="364" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Hours Of Support</p>
               </div>
             </div>
-          </div>
+          </div><!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/app3.png" class="img-fluid" alt="montakhab">
-              <div class="portfolio-info">
-
-                <h4><a href="#">Montakhab</a></h4>
-                <p>Moroccan national team app</p>
-                <div>
-                  <a href="img/portfolio/app3.png" class="link-preview" data-lightbox="portfolio" data-title="App 3"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a class="link-details" href="https://play.google.com/store/apps/details?id=com.otot.tacticmagic"
-                    target="_blank" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-people color-pink flex-shrink-0" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Hard Workers</p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.png" class="img-fluid" alt="Tarikh">
-              <div class="portfolio-info">
-
-                <h4><a href="#">Tarikh</a></h4>
-                <p>Educational app on history</p>
-                <div>
-                  <a href="img/portfolio/app2.png" class="link-preview" data-lightbox="portfolio" data-title="App 2"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.otot.qadim" target="_blank"
-                    class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-game">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/game2.png" class="img-fluid" alt="golf game">
-              <div class="portfolio-info">
-                <h4><a href="#">mono golf </a></h4>
-                <p>golf game</p>
-                <div>
-                  <a href="img/portfolio/game2.png" class="link-preview" data-lightbox="portfolio" data-title="Card 3"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.certaindeath.golfmasters"
-                    class="link-details" target="_blank" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
+          </div><!-- End Stats Item -->
 
         </div>
 
       </div>
-    </section>
-    <!-- #portfolio-->
+
+    </section><!-- /Stats Section -->
 
 
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Check our latest work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Web</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/creaskale.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Creaskale</h4>
+                  <p>COMPETITIVE SOCIAL MEDIA</p>
+                  <a href="assets/img/portfolio/creaskale.png" title="Creaskale" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="CreaskalePage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/ultras.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Ultras</h4>
+                  <p>WHERE FANS LIVE THEIR PASSION</p>
+                  <a href="assets/img/portfolio/ultras.png" title="Ultras" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="UltrasPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Qaryb.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Qaryb</h4>
+                  <p>SHORT WAY</p>
+                  <a href="assets/img/portfolio/Qaryb.png" title="Qaryb" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="QarybPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Gladly</h4>
+                  <p>SMILE SHARING APP</p>
+                  <a href="assets/img/portfolio/app-1.jpg" title="Gladly" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="GladlyPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/web-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Moharik</h4>
+                  <p>MOHARIK WEBSITE</p>
+                  <a href="assets/img/portfolio/web-1.png" title="Moharik" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="MoharikPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Montakhab</h4>
+                  <p>MOROCCAN NATIONAL TEAM APP</p>
+                  <a href="assets/img/portfolio/app3.png" title="Montakhab" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="MontakhabPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/farmly.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Farmly</h4>
+                  <p>CONNECTING FARMERS AND CONSUMERS</p>
+                  <a href="assets/img/portfolio/farmly.png" title="Farmly" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="FarmlyPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Elbrownie.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Elbrownie</h4>
+                  <p>GOURMET BROWNIE EXPERIENCE</p>
+                  <a href="assets/img/portfolio/Elbrownie.png" title="Elbrownie" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="ElbrowniePage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Tarikh</h4>
+                  <p>EDUCATIONAL APP ON HISTORY</p>
+                  <a href="assets/img/portfolio/app2.png" title="Tarikh" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="TarikhPage.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Technopark Rabat
+                    10 Rue Ghandi</p>
+                  <p>Rabat 10000, Maroc</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+212 694-678522</p>
+
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>glad.ma@outlook.com</p>
+
+                </div>
+              </div><!-- End Info Item -->
+
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
 
   </main>
 
-  <!-- ==========================
-    Footer
-  ============================-->
-  <!-- <div data-include="/html/footer.html"></div> -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Glad</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Technopark Rabat
+              10 Rue Ghandi</p>
+            <p>Rabat, 10000, Maroc</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+212 694-678522</span></p>
+            <p><strong>Email:</strong> <span>glad.ma@outlook.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>LIENS UTILES
+          </h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">ACCUEIL</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">A PROPOS</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">SERVICES</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">REALISATION</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Application Mobile</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Social Media marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Jeux Mobile</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">BlockChain</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Motion Design</a></li>
+          </ul>
+        </div>
 
 
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+      </div>
+    </div>
 
-  <!-- JavaScript Libraries -->
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">GLAD</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
 
+      </div>
+    </div>
 
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  </footer>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-  <script>
-    $(function () {
-      $("#includeHtml").load("footer.html");
-    });
-  </script>
-  <div id="includeHtml"></div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
